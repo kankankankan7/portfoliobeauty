@@ -1,0 +1,438 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+  line-height: 1;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+body {
+  text-size-adjust: 100%;
+  overflow-x: hidden;
+  color: rgb(0, 0, 0);
+  font: 300 14px / 1.9 "Noto Sans JP", Arial, Verdana, 游ゴシック, YuGothic, "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", メイリオ, Meiryo, sans-serif;
+  background: rgb(255, 255, 255);
+  height: 100%;
+
+}
+
+.nav-menu li a{
+   text-decoration: none;
+   color: black;
+}
+.nav-menu li{
+  list-style: none;
+  float: left;
+  margin: 0 10px;
+}
+.nav-menu{
+  position: fixed;
+ 
+  z-index: 100;
+  top: 40px;
+  right: 20px;
+  
+  transition: all.5s;
+}
+.header-wrapper{
+  width: 100%;
+
+}
+
+.main-visual{
+  position: relative;
+}
+.main-visual img{
+  height: 560px;
+  width: 100%;
+  object-fit: cover;
+}
+.slogan{
+  position: absolute;
+  top: 220px;
+  left: 35%;
+  
+  color: white;
+}
+.slogan h1{
+  font-size: 40px;
+    font-family: 'Pacifico', cursive;
+    
+    font-weight: normal;
+    
+}
+.slogan h2{
+  font-size: 20px;
+    font-weight: normal;
+    font-family: 'Josefin Sans', 'Noto Sans JP',serif;
+}
+.vision-wrapper{
+  
+  height: 304px;
+  width: 100%;
+  
+  justify-content: center;
+}
+.vision-wrapper h1{
+  font-size: 22px;
+    font-weight: normal;
+    text-align: center;
+    font-family: 'Josefin Sans', 'Noto Sans JP',serif;
+    padding-top: 30px;
+}
+.vision-wrapper p{
+  padding: 30px 20%;
+}
+.message-wrapper{
+  width: 100%;
+  display: inline-block;
+  position: relative;
+  height: 50%;
+}
+
+.container1 img{
+  width: 50%;
+  vertical-align: bottom;
+  
+  
+}
+.container1{
+  display: flex;
+  
+}
+.message-text1{
+  
+  width: 50%;
+  background-color:rgb(240, 240, 240);
+  padding-top: 3%;
+  text-align: center;
+  
+}
+.message-text1 h1{
+  font-size: 22px;
+  font-weight: normal;
+ 
+  font-family: 'Josefin Sans', 'Noto Sans JP',serif;
+
+}
+.message-text1 p{
+  padding: 5px 30px 40px 30px;
+}
+.container2{
+  display: flex;
+  position: relative;
+  
+}
+.message-text2{
+  
+  width: 50%;
+  display: block;
+  padding-top: 3%;
+  
+  background-color:rgb(240, 240, 240);
+}
+.message-text2 h1{
+  font-size: 22px;
+  font-weight: normal;
+  text-align: center;
+  font-family: 'Josefin Sans', 'Noto Sans JP',serif;
+}
+.container2 img{
+  width: 50%;
+  
+  vertical-align: bottom;
+}
+.message-text2 p{
+  padding: 5px 30px 40px 30px;
+}
+
+.container img{
+  height: 285px;
+  width: 285px;
+}
+.container{
+  height: 560px;
+  text-align: center;
+  width: 320px;
+  vertical-align: middle;
+  padding-top: 20px;
+}
+.title{
+  font-size: 22px;
+    font-weight: normal;
+    text-align: center;
+    font-family: 'Josefin Sans', 'Noto Sans JP',serif;
+   
+}
+.circle-wrapper{
+   margin: 30px 0 15px 0;
+   position: relative;
+   width: 100%;
+   justify-content: center;
+   display: flex;
+   height: 569px;
+}
+.container p{
+  margin:  10px 16px;
+}
+
+.story-wrapper{
+  min-height: 100%;
+  background-image: url(img/bgSec04.jpg) ;
+  background-size: cover;
+  width: 100%;
+  background-attachment: fixed;
+  color: white;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  padding-bottom:50px ;
+}
+.story-contents{
+  
+  width: 35%;
+  height:auto;
+  margin-right: 38px;
+}
+.story-contents h1{
+  padding-bottom: 35px;
+  padding-top: 76px;
+  font-size: 22px;
+    font-weight: normal;
+    text-align: center;
+    font-family: 'Josefin Sans', 'Noto Sans JP',serif;
+
+}
+.success-contents{
+  
+  width: 35%;
+  height:auto;
+  float: right;
+  margin-left: 38px;
+}
+.success-contents h1{
+  padding-bottom: 35px;
+  padding-top: 76px;
+  font-size: 22px;
+    font-weight: normal;
+    text-align: center;
+    font-family: 'Josefin Sans', 'Noto Sans JP',serif;
+  
+}
+
+dt{
+  float: left;
+  clear: left;
+  margin-right: 30px;
+  width: 20%;
+  padding-bottom: 25px;
+  padding-left: 18%;
+  text-align: right;
+  
+  padding-right: 4%;
+
+}
+dd{
+  padding-bottom: 25px;
+  
+  width: 60%;
+  
+  margin-left: 50%;
+  
+  
+}
+.company-wrapper{
+  margin-top: 133px;
+  display: flex;
+  height: 570px;
+  
+  position: relative;
+
+}
+.company-text{
+  
+  width: 40%;
+}
+.company-text li a{
+  text-decoration: none;
+}
+.ggmap{
+  position: relative;
+  width: 70%;
+  padding-top: 75%;
+ 
+  margin-left: 10%;
+}
+.ggmap iframe{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 65%;
+  height:38% ;
+ 
+  
+}
+footer{
+  
+  bottom: 0;
+  height: 65px;
+ 
+}
+
+footer p{
+  text-align: center;
+  padding-bottom: 20px;
+  font-size: 12px;
+}
+
+/* ハンバーガーメニュー */
+.menu-btn {
+  position: fixed;
+  top: 10px;
+  right: 10px;
+  display: flex;
+  height: 50px;
+  width: 50px;
+  justify-content: center;
+  align-items: center;
+  z-index: 90;
+  
+}
+.menu-btn span,
+.menu-btn span:before,
+.menu-btn span:after {
+  content: '';
+  display: block;
+  height: 2px;
+  width: 20px;
+  border-radius: 2px;
+  background-color:white;
+  position: absolute;
+}
+.menu-btn span:before {
+  bottom: 8px;
+}
+.menu-btn span:after {
+  top: 8px;
+}
+
+.fas {
+  padding-right: 10px;
+}
+/* ✖️マークにする */
+#menu-btn-check:checked ~ .menu-btn span {
+  background-color: rgba(255, 255, 255, 0);/*メニューオープン時は真ん中の線を透明にする*/
+}
+#menu-btn-check:checked ~ .menu-btn span::before {
+  bottom: 0;
+  transform: rotate(45deg);
+}
+#menu-btn-check:checked ~ .menu-btn span::after {
+  top: 0;
+  transform: rotate(-45deg);
+}
+
+#menu-btn-check {
+  display: none;
+  
+}
+/* メニュー部分 */
+.menu-content {
+  width: 100%;
+  height: 40%;
+  position: fixed;
+  top: 10%;
+  left: 0;
+  z-index: 80;
+  background-color: white;
+}
+.menu-content ul {
+  padding: 10px 10px 0;
+}
+.menu-content ul li {
+  border-bottom: solid 1px rgb(204, 203, 203);
+  list-style: none;
+}
+.menu-content ul li a {
+  display: block;
+  width: 100%;
+  font-size: 15px;
+  box-sizing: border-box;
+  color:black;
+  text-decoration: none;
+  padding: 9px 15px 10px 0;
+  position: relative;
+}
+.menu-content ul li a:hover, .active {
+  text-decoration: underline;
+}
+.menu-content ul li a::before {
+  content: "";
+  width: 7px;
+  height: 7px;
+  border-top: solid 2px #ffffff;
+  border-right: solid 2px #ffffff;
+  transform: rotate(45deg);
+  position: absolute;
+  right: 11px;
+  top: 16px;
+}
+/* 押したら外へ飛ばす */
+
+.menu-content {
+    width: 100%;
+    height: 40%;
+    position: fixed;
+    
+    background-color:white;
+    transform: translateY(-125%);
+    transition: 0.5s;
+    z-index: 1000;
+  }
+
+
+
+#menu-btn-check:checked ~.menu-content {
+  transform: translateY(0%);
+}
